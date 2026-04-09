@@ -34,8 +34,8 @@ graph TD
 ## Installation and Setup
 
 ### 1. Clone the repository
-`git clone <your-repo-url>`
-`cd smat-api-hub`
+`git clone https://github.com/thanhannguyxn/smart-api-hub.git`
+`cd smart-api-hub`
 
 ### 2. Configure Environment Variables
 Copy the example environment file:
@@ -51,7 +51,7 @@ If you prefer running without Docker for the Node application:
 `npm install`
 `npm run dev`
 
-The server will start on port 3000 (or the port specified in your .env).
+The server will start on port 3000 (or the port specified in .env).
 
 ## Features overview
 
