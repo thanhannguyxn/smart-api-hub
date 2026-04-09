@@ -21,7 +21,7 @@ graph TD
     
     subgraph Data Sources [Data Layer]
         DB
-        SchemaFile[schema.json] -.->|Auto Migration| DB
+        SchemaFile[db.json] -.->|Auto Migration| DB
     end
 ```
 
