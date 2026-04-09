@@ -1,0 +1,15 @@
+{
+  "users": [
+    { "id": 1, "email": "admin@test.com", "password": "hashed_password", "role": "admin" },
+    { "id": 2, "email": "student@test.com", "password": "hashed_password", "role": "user" }
+  ],
+  "posts": [
+    { "id": 1, "user_id": 1, "title": "Hướng dẫn Node.js", "content": "Node.js rất mạnh mẽ..." },
+    { "id": 2, "user_id": 2, "title": "Cách học TypeScript", "content": "Nên dùng Strict Mode..." }
+  ],
+  "ratings": [
+    { "id": 1, "post_id": 1, "user_id": 2, "score": 5, "comment": "Bài viết cực kỳ hữu ích!" },
+    { "id": 2, "post_id": 1, "user_id": 1, "score": 4, "comment": "Good job!" },
+    { "id": 3, "post_id": 2, "user_id": 1, "score": 3, "comment": "Cần viết chi tiết hơn." }
+  ]
+}
