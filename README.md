@@ -40,14 +40,14 @@ graph TD
 ### 2. Configure Environment Variables
 Copy the example environment file:
 `cp .env.example .env`
-Edit the `.env` file to include your database credentials and application settings.
+Edit the `.env` file to include database credentials and application settings.
 
 ### 3. Running with Docker Compose
 The easiest way to run the application along with the PostgreSQL database:
 `docker-compose up -d`
 
 ### 4. Running locally (Development mode)
-If you prefer running without Docker for the Node application:
+Running without Docker for the Node application:
 `npm install`
 `npm run dev`
 
@@ -55,13 +55,14 @@ The server will start on port 3000 (or the port specified in .env).
 
 ## Features overview
 
-- Auto-Migration: Automatically generates database tables based on `schema.json`.
+- Auto-Migration: Automatically generates database tables based on `db.json`.
 - Dynamic CRUD Operations: Supports dynamic routing `/:resource`.
 - Advanced Querying: Use `_page`, `_limit`, `_sort`, `_order`, `q` (search), `_embed`, and `_expand`.
 - Rate Limiting and Caching: Includes custom middleware to restrict request rates and cache frequent read queries.
 - Authentication: Secure endpoints with JWT middleware.
 
-## API Documentation
+## API Documentation 
+`postman_collection.json`
 
 For the complete API spec, run the server and access the Swagger UI:
 `http://localhost:3000/docs`
