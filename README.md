@@ -1,4 +1,4 @@
-# Smart API Hub
+# AnNT172_Smart API Hub
 
 Smart API Hub is a dynamic REST API Platform built with Node.js, Express, and TypeScript. It automatically generates CRUD endpoints based on a provided schema, featuring automated migrations, advanced querying (filtering, pagination, expanded relations), authentication, and global error handling.
 
